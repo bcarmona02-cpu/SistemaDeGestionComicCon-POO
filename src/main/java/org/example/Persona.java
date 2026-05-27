@@ -24,6 +24,7 @@ public abstract class Persona {
 
     public void eliminarCategoria(Categoria categoria) {
         // TODO: Completar lógica método (remover la categoría de la lista)
+        categorias.remove(categoria);
     }
 
     // Método abstracto obligatorio para las subclases
